@@ -8,18 +8,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <title>Responsive Layout</title>
     <!-- Style  -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header>
+ <header>
         <nav class="nav-top">
          <div class="container">
             <a href="#!"><img src="img/logo.png" alt="logo"></a>
+            <div class="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
             <ul>
                 <li><a class="link-nav" href="#!">Planning</a></li>
                 <li><a class="link-nav" href="#!">Testimonials</a></li>
@@ -27,38 +30,218 @@
                 <li><a class="link-nav" href="#!">About us</a></li>
                 <li><a class="btn" href="#!">Get Started</a></li>
             </ul>
-            <div class="hamburger">
-                <i class="fa-solid fa-bars"></i>
-            </div>
          </div>
         </nav>
-    </header>
-    <main>
-        <section>
-            <div class="container">
-                <div>
-                    <div>
-                        <div>
-                         <h2>Get a demo application</h2>
-                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga rem laborum ab dignissimos eveniet eos unde laboriosam. Maiores quae hic ex laudantium fugiat sit necessitatibus ipsam, magni dolorum rerum nisi.</p>
-                         <a href="#!">App Store</a>
-                        </div>
-                        <div><img src="img/phone.png" alt="iphone"></div>
-                    </div>
-                    <div>
-                        <i class="fa-solid fa-file-code"></i>
-                        <h2>Clean Code</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iste labore similique nulla ex dolores? Neque similique, optio autem accusantium dolores, voluptate aut, cum non maxime explicabo veniam fugiat perspiciatis? Maiores.</p>
-                    </div>
+ </header>
+ <main>
+    <section class="blue-section">
+        <div class="container">
+            <div class="bluecard-big">
+                <div class="appstore">
+                <h3>Get a demo application</h3>
+                <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium magni, velit doloribus dicta quaerat aspernatur fugiat! Enim excepturi voluptatem optio voluptatibus, tempora aliquid, velit iure illo consequatur nemo cupiditate minima!</div>
+                <a href="#!">
+                    <i class="fa-brands fa-apple"></i> App store
+                </a>
                 </div>
-                <div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
+                <div class="phone">
+                <img src="img/phone.png" alt="">
                 </div>
-
             </div>
-        </section>
-    </main>
+            <div class="bluecards">
+                <i class="fa-solid fa-file-code"></i>
+                <h3>Clean code</h3>
+                <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit accusantium laborum minima fugiat eveniet labore delectus atque asperiores placeat aliquid, unde nesciunt autem tempore veniam impedit assumenda beatae magnam repudiandae!</div>
+            </div>
+            <div class="bluecards">
+                <i class="fa-solid fa-compass-drafting"></i>
+                <h3>Clean code</h3>
+                <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti repellendus explicabo veritatis perferendis nisi quasi nulla. Commodi molestias distinctio temporibus est magnam, dolor recusandae ipsam, eum asperiores accusantium modi aliquid!</div>
+                
+            </div>
+            <div class="bluecards">
+                <i class="fa-solid fa-laptop-code"></i>
+                 <h3>Clean code</h3>
+                 <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium illo alias deleniti eum maxime id, recusandae minus, quibusdam minima labore cupiditate ut distinctio dicta eos! Iste at tempora cupiditate enim.</div>
+            </div>
+            <div class="bluecards">
+                <i class="fa-solid fa-bullhorn"></i>
+                <h3>Clean code</h3>
+                <div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium illo alias deleniti eum maxime id, recusandae minus, quibusdam minima labore cupiditate ut distinctio dicta eos! Iste at tempora cupiditate enim.</div>
+             </div>    
+          </div>
+    </section> 
+    <section class="purple-section">
+        <div class="container">
+            <div class="planning1">
+                <img src="img/planning1.png" alt="">
+             <h2>Strategic Panning</h2>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quidem deserunt quae assumenda atque! Reprehenderit nam omnis, assumenda et est reiciendis, enim repellat, facere facilis ipsum modi. Rem, dolore id!</p>
+            </div>
+            <div class="planning2">
+                <img src="img/planning2.png" alt="">
+                <h4>App Developement</h4>
+                <p>Develop an on-demand app for your delivery business to reach your targered customers without any interruption</p>
+                <div class="arrow">
+                    <i class="fa-solid fa-arrow-down"></i>
+                </div>
+            </div>
+        </div>
+
+
+
+    </section> 
+    <section class="partners">
+        <div class="container">
+            <span>TESTIMONIALS</span>
+            <h1>We are committed expert partners</h1>
+            <p>We place huge value on strong relasionships and have seen the benefit they living to our business. Customer feedback is vital in helping us to get it right.</p>
+            <div class="purple-cards">
+                <img src="img/testimonial1.jpg" alt="">
+                <div>
+                    <i class="fa-solid fa-quote-left"></i> 
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi voluptatibus expedita delectus architecto minus sint ea reiciendis est dolor rem quos ut, impedit voluptate molestias exercitationem fugiat dolore optio sit.
+                    <i class="fa-solid fa-quote-right"></i></div>
+                <div class="name">NAT Reynolds</div>
+            </div>
+            <div class="purple-cards">
+                <img src="img/testimonial2.jpg" alt="">
+                <div>
+                    <i class="fa-solid fa-quote-left"></i> 
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi voluptatibus expedita delectus architecto minus sint ea reiciendis est dolor rem quos ut, impedit voluptate molestias exercitationem fugiat dolore optio sit.
+                    <i class="fa-solid fa-quote-right"></i></div>
+                <div class="name">Nat Reynolds</div>
+            </div>
+            <div class="purple-cards">
+                <img src="img/testimonial3.jpg" alt="">
+                <div>
+                    <i class="fa-solid fa-quote-left"></i> 
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi voluptatibus expedita delectus architecto minus sint ea reiciendis est dolor rem quos ut, impedit voluptate molestias exercitationem fugiat dolore optio sit.
+                    <i class="fa-solid fa-quote-right"></i></div>
+                <div class="name">Nat Reynolds</div>
+            </div>
+        </div>
+
+    </section>
+    <section class="purple-section-2">
+        <h1>Benefits of working with us</h1>
+             <div class="container">
+            <div class="white-cards">
+                <h1>01</h1>
+                <h4>High Quality</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam repudiandae reprehenderit optio consequatur, enim eaque ipsum rem voluptate ipsam nobis doloribus, similique odio dolor! Ab, pariatur! Temporibus rem officia odit?</p>
+                <a href="#!">
+                    <div class="btn-purple">
+                        more
+                    </div>
+                </a>
+            </div>
+            <div class="white-cards">
+                <h1>02</h1>
+                <h4>High Quality</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam repudiandae reprehenderit optio consequatur, enim eaque ipsum rem voluptate ipsam nobis doloribus, similique odio dolor! Ab, pariatur! Temporibus rem officia odit?</p>
+                <a href="#!">
+                    <div class="btn-purple">
+                        more
+                    </div>
+                </a>
+            </div>
+            <div class="white-cards">
+                <h1>03</h1>
+                <h4>High Quality</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam repudiandae reprehenderit optio consequatur, enim eaque ipsum rem voluptate ipsam nobis doloribus, similique odio dolor! Ab, pariatur! Temporibus rem officia odit?</p>
+                <a href="#!">
+                    <div class="btn-purple">
+                        more
+                    </div>
+                </a>
+            </div>
+            <div class="white-cards">
+                <h1>04</h1>
+                <h4>High Quality</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam repudiandae reprehenderit optio consequatur, enim eaque ipsum rem voluptate ipsam nobis doloribus, similique odio dolor! Ab, pariatur! Temporibus rem officia odit?</p>
+                <a href="#!">
+                    <div class="btn-purple">
+                        more
+                    </div>
+                </a>
+            </div>
+            <div class="white-cards">
+                <h1>05</h1>
+                <h4>High Quality</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam repudiandae reprehenderit optio consequatur, enim eaque ipsum rem voluptate ipsam nobis doloribus, similique odio dolor! Ab, pariatur! Temporibus rem officia odit?</p>
+                <a href="#!">
+                    <div class="btn-purple">
+                        more
+                    </div>
+                </a>
+            </div>
+            <div class="white-cards">
+                <h1>06</h1>
+                <h4>High Quality</h4>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magnam repudiandae reprehenderit optio consequatur, enim eaque ipsum rem voluptate ipsam nobis doloribus, similique odio dolor! Ab, pariatur! Temporibus rem officia odit?</p>
+                <a href="#!">
+                    <div class="btn-purple">
+                        more
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section class="about-us">
+        <div class="container">
+            <div class="paragraph">
+                <div>
+                    <h1>About us</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolores quis, fugiat id esse corporis est nemo sapiente numquam cum eius, quo accusamus, eaque impedit commodi. Porro tempora sint sit.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque repellendus, quos, eius quisquam porro velit maxime consequuntur cum sit blanditiis ipsum sint reprehenderit natus beatae. Corporis quam commodi optio voluptatum!</p>
+                </div>
+                <div>
+                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt delectus animi quas sunt quisquam beatae qui voluptates omnis eius odio, obcaecati velit corporis iste ducimus placeat hic dicta. Nobis, aperiam.</p>
+                </div>    
+                
+                
+            </div>
+            <div class="linkedin">
+                <div class="img"> 
+                    <img src="img/about.jpg" alt="">
+                    <i class="fa-solid fa-quote-left" id="quotation"></i> 
+                </div>
+               
+
+                <h3>I help companies tincindunt tortor aliquam nulla facilisi cras fermentum odio.</h3>
+                <a href="#">
+                    <div class="btn-purple">
+                        <i class="fa-brands fa-linkedin"></i>
+                        Find me on linkedin
+                    </div>
+                </a>
+            </div>    
+        </div>
+    </section>  
+    <section class="purple-section-3">
+        <div class="container">
+            <span class="getstarted">GET STARTED</span>
+            <h2>Simple,Transparent Pricing</h2>
+            <h1>It's Free!</h1>
+            <p>We're still in beta and we will be for avaiable. As we add more functionally,we'll look into other pans with more controls</p>
+            <a href="#!">
+                <div class="white-button">
+                    Get Started
+                </div>
+            </a>
+            <span class="copyright">Copyright 2011 Boolean- Classe XX- <span>Privacy Policy</span></span>
+        </div>
+    </section>  
+ </main>
+ <footer>
+    <div class="footer-container">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae itaque corporis suscipit facilis ipsam.
+        </p>
+     </div>   
+   
+
+</footer>
+  
 </body>
 </html>
